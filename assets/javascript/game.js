@@ -61,11 +61,11 @@ $(document).ready(function(){
 });
 
 function generateNumbers(){
-	blue = Math.ceil(Math.random() * 12);
-	red = Math.ceil(Math.random() * 12);
-	yellow = Math.ceil(Math.random() * 12);
-	green = Math.ceil(Math.random() * 12);
-	rand = Math.floor(Math.random() * 101) + 19;
+	blue = Math.floor(Math.random() * 12 +1);
+	red = Math.floor(Math.random() * 12 +1);
+	yellow = Math.floor(Math.random() * 12 +1);
+	green = Math.floor(Math.random() * 12 + 1);
+	rand = Math.floor(Math.random() * 102) + 19;
 	total =0;
 	$('#six_1').text(total);
 	$('#third_1').text(rand);
