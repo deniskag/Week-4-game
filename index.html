@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystals Collector Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="assets/javascript/game.js"></script>
+<style type="text/css">
+table{
+
+  border-spacing:10px;
+  border-collapse:separate;
+
+}
+body{
+	background-image: url(assets/images/crystal_background.jpeg);
+}
+
+#third_1{
+	background: green;
+	width: 150px;
+	height: 50px;
+	padding-top:10px;
+	padding: 10px;
+
+}
+#first{
+	background: brown;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	color:white;
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	
+}
+
+#second{
+	background: #e0d694;
+	width: 500px;
+	height: 350px;
+	text-align: left;
+	font-size: 18px;
+	color:green;
+
+}	
+#third_2{
+	background: blue;
+	width:50px;
+	height: 50px;
+	color:white;
+	text-align: center;
+	font-size: 18px;
+
+}
+
+}
+#fifth_1{
+	background: #34ada7;
+	width: 150px;
+	height: 30px;
+	padding-top: 10px;
+	text-align: left;
+	color: white;
+}
+#six_1{
+	background: #34ada7;
+	width: 150px;
+	height: 50px;
+	text-align: left;
+	color:white;
+}
+			
+
+	
+</style>
+
+</head>
+<body>
+
+		<table>
+
+			<tr>
+				<td id="first" colspan="3">Crystal Collector!</td>
+				<td colspan="1"></td>
+				
+			</tr>
+		
+			<tr>
+				
+				<td id="second" colspan="4">
+						 <p> You will be given a new number at the start of the game</p>
+						 <br>
+      
+                         <p>  There are four crystals below. By clicking on the crystal you will add a spesific amount of points to your total score.</p>
+                         <br>
+                          
+                          <p>    You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+                          <br>
+      	
+                          <p>    The value of each crystal is hidden from you until you click on it.</p>
+                          <br>
+      
+                          <p>    Each time when the starts, the game will change the values of each crystal. </p>
+                      </td>   					         					
+                   
+             </tr>
+       
+      		<tr>
+      			
+      			<td  id="third_1" colspan="2"></td>
+      		   
+      		   	<td  id="third_2" colspan="2">
+      			
+      				<div>Wins:<span id="win">0</span></div>
+      				<div>Losses:<span id="losses">0</span></div>
+      		
+      		    </td>
+      		</tr> 
+      		<tr>
+      		    <td id="crystalblue"  colspan="4">
+      		    	<div>
+	      		     <img id="blue" src="assets/images/blue_gem.jpeg" width="50px" height="50px">	
+	      	         <img id="red" src="assets/images/red_gem.jpeg" width="50px" height="50px">	
+	      		     <img id="yellow" src="assets/images/yellow_gem.jpeg" width="50px" height="50px">	
+	      	         <img id="green" src="assets/images/green_gem.jpeg" width="50px" height="50px">	
+	      	         </div>
+      	         </td>
+      	     </tr>
+      	     <tr>
+      	     	<td id="fifth_1" colspan="2">Your total score is:</td>
+      	     	<td id="fifth_2" colspan="2"></td>
+      	     </tr>
+      	     <tr>
+      	     	<td id="six_1" colspan="2">0</td>
+      	     	<td id="six_2" colspan="2"></td>
+      	     </tr>		
+      				
+
+
+		</table>
+
+</body>
+</html>
